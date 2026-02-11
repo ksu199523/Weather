@@ -13,7 +13,7 @@ body{
 }
 
 .blue{
-  background-color: #2B81AC;
+  background-color: #3399CC;
 }
 
 .turquoise{
@@ -57,15 +57,15 @@ background: #C24747;
 }
 
 .half{
-  width: 50%;
+  width: calc(50% - 2px);
 }
 
 .whole{
-  width: 100%;
+  width: calc(100% - 2px);
 }
 
 .quarter{
-  width: 25%;
+  width: calc(25% - 2px);
 }
 
 .main{
@@ -88,19 +88,18 @@ background: #C24747;
   line-height: 1.2;
   color: #fff;
   font-weight: 300;
-  margin-top: 40px;
 }
 
 .img{
-  margin-top: 30px;
-  margin-left: 5px;
+  line-height: 60px;
+  vertical-align: middle;
 }
 
 .title,
 .img{
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 35px;
+  padding: 35px 0;
 }
 
 .item__box{
@@ -108,17 +107,24 @@ background: #C24747;
 }
 .list{
   font-size: 0;
-  border: 2px solid #fff;
+  background: #fff;
+  border: unset;
   margin-bottom: 37px;
 }
 
 .item{
   display: inline-block;
   vertical-align: top;
-  height: 147px;
   font-size: 22px;
-  border: 2px solid #fff;
+  border: unset;
+  margin: 1px;
   cursor: pointer;
+  opacity: 0.7;
+  padding: 10px 0;
+}
+
+.item:hover{
+  opacity: 1;
 }
 
 .item__box-title{
@@ -126,7 +132,6 @@ background: #C24747;
   text-align: center;
   font-size: 22px;
   font-weight: 300;
-  margin: 26px 0 10px;
 }
 
 .item__box{
@@ -149,10 +154,12 @@ background: #C24747;
 .item__box-img{
   vertical-align: top;
   opacity: 0.7;
+  height: 60px;
  }
 
  .item__box-temp{
-    vertical-align: bottom;
+    line-height: 60px;
+    vertical-align: middle;
     color: #fff;
     font-size: 22px;
     font-weight: 300;
