@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Lucida";
+  src: url("../fonts/Lucida_Sans_Unicode.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+  font-family: "Lucida", sans-serif;
+  font-weight: 400;
+  background-color: #2E7FA3;
+}
+
+.blue{
+  background-color: #2B81AC;
+}
+
+.turquoise{
+  background-color:#33CCCC;
+}
+
+.mauve{
+  background-color: #996699;
+}
+
+.venice{
+background: #C24747;
+}
+
+.salmon{
+  background-color: #E2674A;
+}
+
+.cairo{
+  background-color: #FFCC66;
+}
+
+.sage-green{
+  background-color: #99CC99;
+}
+
+.muted-teal{
+  background-color: #669999;
+}
+
+.mint-green{
+  background-color: #339966;
+}
+
+.old-rose{
+  background-color: #CC6699;
+}
+
+.lavender-gray{
+  background-color: #666699;
+}
+
+.half{
+  width: 50%;
+}
+
+.whole{
+  width: 100%;
+}
+
+.quarter{
+  width: 25%;
+}
+
+.main{
+  margin: 30px;
+  background-color: #3E8FB5;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 20px auto;
+}
+
+.item__box-img{
+  color:#fff;
+}
+
+.title{
+  font-size: 21px;
+  line-height: 1.2;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.img{
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.title,
+.img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 35px;
+}
+
+.item__box{
+  max-width: 1170px;
+}
+.list{
+  font-size: 0;
+  border: 2px solid #fff;
+  margin-bottom: 37px;
+}
+
+.item{
+  display: inline-block;
+  vertical-align: top;
+  height: 147px;
+  font-size: 22px;
+  border: 2px solid #fff;
+}
+
+.item__box-title{
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 26px 0 10px;
+}
+
+.item__box{
+  text-align: center;
+}
+
+
+
+.item__box-temp,
+.item__box-img{
+  display: inline-block;
+  transition: all .3s ease;
+}
+
+.item__box-temp:hover,
+.item__box-img:hover{
+  opacity: 1;
+}
+
+.item__box-img{
+  vertical-align: top;
+  opacity: 0.7;
+ }
+
+ .item__box-temp{
+    vertical-align: bottom;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0.7;
+ }
+
+ .content__text{
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 100px;
+ }
+
+
+
