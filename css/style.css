@@ -57,15 +57,15 @@ background: #C24747;
 }
 
 .half{
-  width: calc(50% - 2px);
+  width: 50%;
 }
 
 .whole{
-  width: calc(100% - 2px);
+  width: 100%;
 }
 
 .quarter{
-  width: calc(25% - 2px);
+  width: 25%;
 }
 
 .main{
@@ -107,27 +107,30 @@ background: #C24747;
 }
 .list{
   font-size: 0;
-  background: #fff;
-  border: unset;
   margin-bottom: 37px;
+  border: 3px solid #fff;
+  background-color: #fff;
 }
 
 .item{
   display: inline-block;
   vertical-align: top;
   font-size: 22px;
-  border: unset;
-  margin: 1px;
   cursor: pointer;
-  opacity: 0.7;
-  padding: 10px 0;
+  border: 2px solid #fff;
 }
 
-.item:hover{
+.item__inner{
+  opacity: 0.7;
+  padding: 10px 0;
+  transition: all .3s ease;
+}
+
+.item__inner:hover{
   opacity: 1;
 }
 
-.item__box-title{
+.item__title{
   color: #fff;
   text-align: center;
   font-size: 22px;
