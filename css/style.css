@@ -118,6 +118,7 @@ background: #C24747;
   height: 147px;
   font-size: 22px;
   border: 2px solid #fff;
+  cursor: pointer;
 }
 
 .item__box-title{
